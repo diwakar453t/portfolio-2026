@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diwakar Patel | AI & ML Engineer</title>
+  <meta name="description" content="Portfolio of Diwakar Patel — Google Student Ambassador, AI/ML Engineer, and B.Tech CS (AI&ML) student building intelligent systems.">
+  <meta name="keywords" content="Diwakar Patel, AI, Machine Learning, Portfolio, Google Student Ambassador, Full Stack Developer">
+  <meta property="og:title" content="Diwakar Patel | AI & ML Engineer">
+  <meta property="og:description" content="Google Student Ambassador | AI/ML Engineer | Building intelligent systems that matter.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 3D Particle Canvas -->
+  <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>DP<span class="logo-bracket">/&gt;</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open to Opportunities
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-greeting">Hello, I'm</span>
+        <span class="hero-name">Diwakar Patel</span>
+        <span class="hero-role" id="typedRole"></span>
+      </h1>
+      <p class="hero-description">
+        Google Student Ambassador & AI/ML Engineer specializing in Generative AI, 
+        NLP, and Full-Stack Development. Building intelligent systems that bridge 
+        the gap between cutting-edge research and real-world impact.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <span>View Projects</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="3">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Internships</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="18">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="1000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Followers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="tilt-card" id="heroCard">
+        <div class="profile-3d">
+          <img src="profile.jpg" alt="Diwakar Patel speaking at AKTU InnoQuest" class="profile-img" loading="eager">
+          <div class="profile-ring"></div>
+          <div class="profile-ring ring-2"></div>
+        </div>
+        <div class="hero-card-info">
+          <span class="card-name">Diwakar Patel</span>
+          <span class="card-role">AI/ML Engineer</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-number">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>third-year B.Tech student</strong> specializing in 
+            <strong>Artificial Intelligence and Machine Learning</strong> at 
+            Ashoka Institute of Technology and Management, affiliated with 
+            Dr. A.P.J. Abdul Kalam Technical University, Varanasi.
+          </p>
+          <p>
+            As a <strong>Google Student Ambassador</strong>, I champion AI innovation 
+            and host workshops on tools like Google Gemini. I also serve as the 
+            <strong>Technical Head</strong> for the GeeksforGeeks Campus Body, where 
+            I guide technical projects and foster a culture of learning.
+          </p>
+          <p>
+            My hands-on experience spans AI internships with 
+            <strong>Google</strong>, the <strong>AICTE-Microsoft-SAP</strong> program, 
+            and <strong>EIsystem Technologies</strong> — applying machine learning 
+            concepts to solve real-world problems at scale.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Education</span>
+              <span class="detail-value">B.Tech CS (AI&ML) — AKTU</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Location</span>
+              <span class="detail-value">Varanasi, Uttar Pradesh</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Focus Areas</span>
+              <span class="detail-value">GenAI, NLP, Computer Vision</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-frame tilt-card" id="aboutCard">
+            <img src="profile.jpg" alt="Diwakar Patel" class="about-photo" loading="lazy">
+            <div class="image-decoration"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-number">02.</span> Work Experience
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"><div class="timeline-dot active"></div></div>
+          <div class="timeline-content">
+            <div class="experience-card glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">AI/ML Intern</h3>
+                  <p class="exp-company">EIsystem Technologies</p>
+                </div>
+                <span class="exp-badge current">Current</span>
+              </div>
+              <p class="exp-date">Jun 2026 — Present</p>
+              <p class="exp-description">Working on production-grade ML pipelines and real-time data processing. Contributing to model deployment, optimization, and scalable AI system design using MLOps best practices.</p>
+              <div class="exp-tags"><span class="tag">MLOps</span><span class="tag">Python</span><span class="tag">Model Deployment</span><span class="tag">Data Pipeline</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"><div class="timeline-dot"></div></div>
+          <div class="timeline-content">
+            <div class="experience-card glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Google Student Ambassador</h3>
+                  <p class="exp-company">Google</p>
+                </div>
+                <span class="exp-badge google">Google</span>
+              </div>
+              <p class="exp-date">Aug 2025 — Feb 2026 · 6 months</p>
+              <p class="exp-description">Led hands-on workshops on Google Gemini and AI tools for 200+ students. Organized tech talks, study jams, and hackathon bootcamps. Championed responsible AI usage and developer community building.</p>
+              <div class="exp-tags"><span class="tag">Google Gemini</span><span class="tag">AI Workshops</span><span class="tag">Community</span><span class="tag">Cloud AI</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"><div class="timeline-dot"></div></div>
+          <div class="timeline-content">
+            <div class="experience-card glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">AI Intern — AICTE-Microsoft-SAP</h3>
+                  <p class="exp-company">Edunet Foundation</p>
+                </div>
+                <span class="exp-badge microsoft">Microsoft</span>
+              </div>
+              <p class="exp-date">Jan 2025 — Jul 2025 · 6 months</p>
+              <p class="exp-description">Built end-to-end ML pipelines using Python, scikit-learn, and Azure AI. Delivered project prototype at regional showcase. Earned certifications from Microsoft, SAP, AICTE, and Edunet.</p>
+              <div class="exp-tags"><span class="tag">Azure AI</span><span class="tag">scikit-learn</span><span class="tag">NLP</span><span class="tag">ML Pipelines</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"><div class="timeline-dot"></div></div>
+          <div class="timeline-content">
+            <div class="experience-card glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Technical Head</h3>
+                  <p class="exp-company">GeeksforGeeks Campus Body — AITM Varanasi</p>
+                </div>
+                <span class="exp-badge gfg">GFG</span>
+              </div>
+              <p class="exp-date">Jul 2025 — Present</p>
+              <p class="exp-description">Leading coding contests, workshops, and mentorship in DSA, Competitive Programming, and Full-Stack Development.</p>
+              <div class="exp-tags"><span class="tag">Leadership</span><span class="tag">DSA</span><span class="tag">Mentorship</span><span class="tag">Events</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-number">03.</span> Featured Projects
+      </h2>
+      <div class="projects-grid">
+        <article class="project-card featured glass-card">
+          <div class="project-glow"></div>
+          <div class="project-header">
+            <div class="project-icon">🏥</div>
+            <div class="project-links">
+              <a href="https://github.com/diwakar453t/Heathcare_Chatbot" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+            </div>
+          </div>
+          <h3 class="project-title">Healthcare AI Chatbot</h3>
+          <p class="project-description">Intelligent medical symptom analyzer powered by NLP & GenAI. Processes natural language health queries using 5,000+ disease-symptom mappings.</p>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-value">87%</span><span class="metric-label">Accuracy</span></div>
+            <div class="metric"><span class="metric-value">0.83</span><span class="metric-label">F1 Score</span></div>
+            <div class="metric"><span class="metric-value">&lt;2s</span><span class="metric-label">Latency</span></div>
+          </div>
+          <div class="project-tags"><span>Python</span><span>NLP</span><span>GenAI</span><span>FastAPI</span><span>scikit-learn</span></div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon">📄</div>
+            <div class="project-links"><a href="https://github.com/diwakar453t/Resume_SKill_Checker" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></div>
+          </div>
+          <h3 class="project-title">AI Resume Skill Analyzer</h3>
+          <p class="project-description">NLP-powered tool that analyzes resumes to identify skill gaps, match job requirements, and provide actionable improvement recommendations.</p>
+          <div class="project-tags"><span>TypeScript</span><span>NLP</span><span>AI</span><span>React</span></div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon">⚡</div>
+            <div class="project-links"><a href="https://github.com/diwakar453t/chargerbnb-fullstack" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></div>
+          </div>
+          <h3 class="project-title">ChargerBnB Full-Stack</h3>
+          <p class="project-description">Full-stack EV charger booking platform with real-time availability, authentication, and seamless booking experience.</p>
+          <div class="project-tags"><span>TypeScript</span><span>Full-Stack</span><span>React</span><span>Node.js</span></div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon">🎓</div>
+            <div class="project-links"><a href="https://github.com/diwakar453t/vincenzo_202" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></div>
+          </div>
+          <h3 class="project-title">PreSkool ERP System</h3>
+          <p class="project-description">School management ERP with Python/FastAPI backend. Student management, attendance tracking, and admin dashboards.</p>
+          <div class="project-tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span></div>
+        </article>
+      </div>
+      <div class="projects-cta">
+        <a href="https://github.com/diwakar453t?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View All 18 Projects on GitHub <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">04.</span> Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category glass-card"><div class="skill-icon">🧠</div><h3>AI / ML</h3><div class="skill-items"><span class="skill-tag primary">PyTorch</span><span class="skill-tag primary">TensorFlow</span><span class="skill-tag primary">scikit-learn</span><span class="skill-tag">Keras</span><span class="skill-tag">Hugging Face</span><span class="skill-tag">OpenCV</span><span class="skill-tag">NLTK</span><span class="skill-tag">spaCy</span></div></div>
+        <div class="skill-category glass-card"><div class="skill-icon">💻</div><h3>Languages</h3><div class="skill-items"><span class="skill-tag primary">Python</span><span class="skill-tag primary">TypeScript</span><span class="skill-tag primary">JavaScript</span><span class="skill-tag">Java</span><span class="skill-tag">C/C++</span><span class="skill-tag">Swift</span><span class="skill-tag">SQL</span><span class="skill-tag">Rust</span></div></div>
+        <div class="skill-category glass-card"><div class="skill-icon">🌐</div><h3>Web & Backend</h3><div class="skill-items"><span class="skill-tag primary">FastAPI</span><span class="skill-tag primary">React</span><span class="skill-tag primary">Node.js</span><span class="skill-tag">Next.js</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">SQLAlchemy</span><span class="skill-tag">REST APIs</span><span class="skill-tag">HTML/CSS</span></div></div>
+        <div class="skill-category glass-card"><div class="skill-icon">☁️</div><h3>Tools & Cloud</h3><div class="skill-items"><span class="skill-tag primary">Google Colab</span><span class="skill-tag primary">Azure AI</span><span class="skill-tag">Git/GitHub</span><span class="skill-tag">Docker</span><span class="skill-tag">Jupyter</span><span class="skill-tag">Postman</span><span class="skill-tag">Linux</span><span class="skill-tag">VS Code</span></div></div>
+        <div class="skill-category glass-card"><div class="skill-icon">📊</div><h3>Data Science</h3><div class="skill-items"><span class="skill-tag primary">NumPy</span><span class="skill-tag primary">Pandas</span><span class="skill-tag primary">Matplotlib</span><span class="skill-tag">Seaborn</span><span class="skill-tag">Data Preprocessing</span><span class="skill-tag">Feature Eng.</span></div></div>
+        <div class="skill-category glass-card"><div class="skill-icon">🤖</div><h3>GenAI & NLP</h3><div class="skill-items"><span class="skill-tag primary">LLMs</span><span class="skill-tag primary">Prompt Eng.</span><span class="skill-tag">LangChain</span><span class="skill-tag">Google Gemini</span><span class="skill-tag">Transformers</span><span class="skill-tag">RAG</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">05.</span> Achievements</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card trophy glass-card"><div class="achievement-icon">🏆</div><h3>1st Place — 15kg Robo War</h3><p>IIT BHU Varanasi — Team Moksh</p></div>
+        <div class="achievement-card trophy glass-card"><div class="achievement-icon">🥇</div><h3>1st Place — RoboWar</h3><p>NIT Bhopal — Top 25 Teams India</p></div>
+        <div class="achievement-card trophy glass-card"><div class="achievement-icon">🥈</div><h3>2nd Place — ROBO WAR</h3><p>AKTU Inter-University Tech Fest</p></div>
+        <div class="achievement-card cert glass-card"><div class="achievement-icon">🏅</div><h3>Google Student Ambassador</h3><p>Certificate — Google</p></div>
+        <div class="achievement-card cert glass-card"><div class="achievement-icon">📜</div><h3>Postman API Expert</h3><p>API Fundamentals Student Expert</p></div>
+        <div class="achievement-card cert glass-card"><div class="achievement-icon">🎖️</div><h3>HCL GUVI Hackathon</h3><p>AKTU AI Tech Confluence 2025</p></div>
+        <div class="achievement-card cert glass-card"><div class="achievement-icon">🏆</div><h3>GDG Solution Challenge</h3><p>Google Developer Groups</p></div>
+        <div class="achievement-card cert glass-card"><div class="achievement-icon">📋</div><h3>AICTE-Microsoft-SAP</h3><p>AI Certs — Microsoft, SAP, AICTE</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">06.</span> Get in Touch</h2>
+      <div class="contact-content">
+        <p class="contact-text">I'm always open to discussing AI/ML projects, research collaborations, or exciting opportunities. Feel free to reach out!</p>
+        <div class="contact-links">
+          <a href="https://github.com/diwakar453t" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub</span><span class="contact-handle">@diwakar453t</span>
+          </a>
+          <a href="https://www.linkedin.com/in/diwakar-patel-151393277/" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span>LinkedIn</span><span class="contact-handle">Diwakar Patel</span>
+          </a>
+          <a href="mailto:diwakar453t@gmail.com" class="contact-card glass-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>Email</span><span class="contact-handle">diwakar453t@gmail.com</span>
+          </a>
+        </div>
+        <a href="mailto:diwakar453t@gmail.com" class="btn btn-primary btn-large"><span>Say Hello 👋</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by <strong>Diwakar Patel</strong></p>
+      <p class="footer-sub">© 2026 · Made with ❤️ and lots of ☕</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
